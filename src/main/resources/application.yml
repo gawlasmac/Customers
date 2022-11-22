@@ -1,0 +1,15 @@
+server.port: 55560
+spring.application.name: Customers
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:h2:mem:customers
+    driverClassName: org.h2.Driver
+
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+eureka.instance.prefer-ip-address: true

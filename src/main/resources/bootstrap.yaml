@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.50.33:8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.50.33:8761/eureka
